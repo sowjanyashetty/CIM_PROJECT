@@ -3,7 +3,7 @@
 
 //Change to your own API Gateway endpoint
 
-const API_http = 'https://q6tzqq772g.execute-api.us-west-2.amazonaws.com';
+const API_http = your_apigateway
 export const getAnswer = async(respid,text,model_params,headers) =>{
     const options ={
         method:'POST',
